@@ -1,17 +1,15 @@
-
-def add(a, b):
-    pass  # ...
-
-
-def output(a, b, sum):
-    pass  # ...
+def add():
+    a = int(input("enter "))
+    b = int(input("enter "))
+    sum=a+b
+    return sum
+def output(sum):
+    print("the sum is",sum)
 
 
 def main():
-    a, b = input_two_numbers()
-    sum = add(a, b)
-
-    output(a, b, sum)
+    z=add()
+    output(z)
 
 
 if __name__ == '__main__':
