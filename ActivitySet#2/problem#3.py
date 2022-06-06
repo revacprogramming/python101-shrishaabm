@@ -1,12 +1,18 @@
 
 
-def get_cs():
-    """get string input"""
 
+def get_cs():
+    a=input("enter")
+    return a
 
 def cs_to_lot(cs):
     """convert connected string to list of strings"""
-
+    b=tuple()
+    l=cs.split(";")
+    c=[]
+    for i in l:
+        c.append(tuple(i.split("=")))
+    print (c)
 
 def main():
     cs = get_cs()
@@ -15,5 +21,5 @@ def main():
     print(lot)
 
 
-if __name__ == '__main__':
-    main()
+
+main()
