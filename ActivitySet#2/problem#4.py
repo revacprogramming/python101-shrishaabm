@@ -8,5 +8,5 @@ def get_cs():
 def cs_to_lot(cs):
   split=tuple(cs.split(),cs[0])
   l=list(split)
-  return l
+  return a
   
