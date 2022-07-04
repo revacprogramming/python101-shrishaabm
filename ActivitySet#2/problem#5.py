@@ -1,8 +1,10 @@
 
 
 def get_cs():
-    """get string input"""
-
+    a = input("enter")
+    return a
+ 
+  
 
 def cs_to_dict(cs):
     """convert connect string to a dictionary"""
