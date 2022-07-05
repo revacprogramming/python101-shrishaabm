@@ -8,6 +8,12 @@ def get_cs():
 
 def cs_to_dict(cs):
     """convert connect string to a dictionary"""
+    c = []
+    d = a.split(";")
+    for i in d:
+        c.append(tuple(i.split("=")))
+    k=dict(c)
+    return k
 
 
 def dict_to_cs(d):
@@ -24,5 +30,5 @@ def main():
     print(cs)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__'
     main()
