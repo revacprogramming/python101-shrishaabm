@@ -9,7 +9,7 @@ def get_cs():
 def cs_to_dict(cs):
     """convert connect string to a dictionary"""
     c = []
-    d = a.split(";")
+    d = cs.split(";")
     for i in d:
         c.append(tuple(i.split("=")))
     k=dict(c)
@@ -18,6 +18,12 @@ def cs_to_dict(cs):
 
 def dict_to_cs(d):
     """convert a dictionary to connect string"""
+    e=d.items()
+    f=list(e)
+    for i in f:
+        z="=".join(i)
+        print(z,end=';')
+    
 
 
 def main():
