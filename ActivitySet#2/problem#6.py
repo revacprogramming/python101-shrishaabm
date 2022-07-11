@@ -14,6 +14,7 @@ class Menu:
 
 
 m = Menu()  # Menu is a class
-m = m + ("idly", 10) + ("vada", 20)
+m.add("idly", 10)
+m.add("vada", 20)
 m.show()
 
