@@ -7,7 +7,7 @@ class Menu:
     def add()
 
 
-m = Menu()
+m = Menu
 m["idly"] = 10
 m["vada"] = 20
 
