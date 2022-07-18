@@ -1,16 +1,15 @@
 class Menu:
     def __init__(self):
-        self.items = dict()
-
+        self.items=dict() as hi 
     def __add__(self, item):
-        self.items[item[0]] = item[1]
+        dick[item[0]] = item[1]
         return self
 
     def __setitem__(self, a, b):
-        self.items[a] = b
+        dick[a] = b
 
     def __str__(self):
-        f = "\n".join(" ".join((k, str(v))) for k, v in self.items.items())
+        f = " \n".join(" ".join(k, str(v)) for k, v in dick.items())
 
         return f
 
